@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Inscription au Club</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Inscription au Club</h1>
+    <form action="process_inscription.php" method="post">
+        <label for="nom">Nom:</label>
+        <input type="text" id="nom" name="nom" required><br>
+        <label for="prenom">Prénom:</label>
+        <input type="text" id="prenom" name="prenom" required><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+        <label for="mot_de_passe">Mot de passe:</label>
+        <input type="password" id="mot_de_passe" name="mot_de_passe" required><br>
+        <input type="submit" value="S'inscrire">
+    </form>
+</body>
+</html>
