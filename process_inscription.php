@@ -3,7 +3,7 @@ include 'connexion.php';
 
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Sanitize and retrieve form data
+   
     $nom = htmlspecialchars($_POST['nom']);
     $prenom = htmlspecialchars($_POST['prenom']);
     $email = htmlspecialchars($_POST['email']);
