@@ -1,22 +1,83 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Inscription au Club</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/sign_up.css">
+    <title>Sign up</title>
 </head>
 <body>
-    <h1>Inscription au Club</h1>
-    <form action="process_inscription.php" method="post">
-        <label for="nom">Nom:</label>
-        <input type="text" id="nom" name="nom" required><br>
-        <label for="prenom">Prénom:</label>
-        <input type="text" id="prenom" name="prenom" required><br>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required><br>
-        <label for="mot_de_passe">Mot de passe:</label>
-        <input type="password" id="mot_de_passe" name="mot_de_passe" required><br>
-        <input type="submit" value="S'inscrire">
+    <div>
+    <br>
+<br> <h1 >Let's begin the adventure !
+    </h1>
+    </div>
+    <form class="form">
+        <p class="title">Register </p>
+        <p class="message">We'll sign you in, or create an account if you don't have one yet.</p>
+            <div class="flex">
+            <label>
+                <input class="input" type="text" placeholder="" required="">
+                <span>Firstname</span>
+            </label>
+    
+            <label>
+                <input class="input" type="text" placeholder="" required="">
+                <span>Lastname</span>
+            </label>
+        </div>  
+                
+        <label>
+            <input class="input" type="email" placeholder="" required="">
+            <span>Email</span>
+        </label> 
+
+        <label>
+            <input class="input" type="tel" id="phone" name="phone" placeholder="" required="">
+            <span>Phone Number</span>
+        </label>
+
+        <label>
+            <input class="input" type="date" placeholder="" required="">
+            <span></span>
+        </label> 
+            
+        <label>
+            <input class="input" type="password" placeholder="" required="">
+            <span>Password</span>
+        </label>
+
+        <label>
+            <input class="input" type="password" placeholder="" required="">
+            <span>Confirm password</span>
+        </label>
+        <button>
+          <span class="circle1"></span>
+          <span class="circle2"></span>
+          <span class="circle3"></span>
+          <span class="circle4"></span>
+          <span class="circle5"></span>
+          <span class="text">Submit</span>
+      </button>
+        <p class="signin">Already have an acount ? <a href="#">Signin</a> </p>
     </form>
+   
+    
+    
+    <footer class="footer">
+        <b class="footer-title">
+            <div class="copy"> CopyRight @ </div><div class="spaced-span"><span>MOHAMMED MEHDI BOUDIR</span> 
+                <div>  
+                   
+                </div>
+    </div>
+            <div class="spaced-span"> <span class="m">MOHAMMED  EL  AHMAR</span> 
+                
+    </div>
+            <div class="spaced-span"> <span class="m">MERYEM  ZRIOUIL</span>
+               
+            </div>
+        </b>
+    </footer>
 </body>
 </html>
